@@ -1,0 +1,25 @@
+{
+  "name": "jrayln/php-cli-demo",
+  "description": "PHP command-line tool demo",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Jrayln\\PhpCliDemo\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Michael Morales",
+      "email": "mike@michaelmorales.org"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.0",
+    "symfony/console": "^5.0|^6.3"
+  },
+  "bin": [
+    "bin/demo"
+  ]
+}
